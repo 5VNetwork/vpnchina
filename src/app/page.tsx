@@ -67,7 +67,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             在中国大陆搜「VPN」或「免费VPN」，真正要问的是：能不能下载、能不能连上、是不是为中国网络做过优化。
-            本站把两款产品分开写推荐页，避免混在一张对比表里——按你的搜索进入对应页面即可。
+            本站推荐两款产品：UmiVPN（全平台）与努努加速器（手机永久免费）。
           </p>
         </div>
       </section>
