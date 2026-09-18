@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --color-paper: #f6f1e8;
+  --color-ink: #1c1917;
+  --color-muted: #57534e;
+  --color-line: #e7e0d4;
+  --color-brand: #9a3412;
+  --color-brand-dark: #7c2d12;
+  --color-navy: #1e293b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans), "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+@layer base {
+  a {
+    color: inherit;
+  }
+}

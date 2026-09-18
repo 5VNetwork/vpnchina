@@ -1,0 +1,44 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"main": ".open-next/worker.js",
+	"name": "vpnchina",
+	"compatibility_date": "2026-09-18",
+	"keep_vars": true,
+	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"services": [
+		{
+			// Self-reference for OpenNext caching
+			// see https://opennext.js.org/cloudflare/caching
+			"binding": "WORKER_SELF_REFERENCE",
+			"service": "vpnchina"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "NEXT_INC_CACHE_R2_BUCKET",
+			// Create before first deploy:
+			// npx wrangler r2 bucket create vpnchina-opennext-cache
+			"bucket_name": "vpnchina-opennext-cache"
+		},
+		{
+			"bucket_name": "vpnchina-opennext-cache",
+			"binding": "vpnchina_opennext_cache",
+			"remote": true
+		}
+	],
+	"observability": {
+		"enabled": true,
+		"head_sampling_rate": 1,
+		"logs": {
+			"enabled": true,
+			"invocation_logs": true
+		}
+	}
+}
