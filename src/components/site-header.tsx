@@ -5,6 +5,7 @@ const NAV = [
   { href: "/", label: "首页" },
   { href: "/vpn", label: "VPN" },
   { href: "/免费vpn", label: "免费VPN" },
+  { href: "/如何选择vpn", label: "怎么选" },
   { href: "/about", label: "关于" },
 ];
 

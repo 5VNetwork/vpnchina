@@ -111,6 +111,14 @@ export default function HomePage() {
           </p>
           <p>
             对中国用户更有用的标准是：下载渠道正规、连接针对国内环境优化、说明记不记日志，以及免费档是否真能日常使用。本站推荐的两款产品都按这个标准单独介绍。
+            更完整的选购清单见{" "}
+            <Link
+              href="/如何选择vpn"
+              className="font-medium underline-offset-4 hover:underline"
+            >
+              如何选择 VPN
+            </Link>
+            。
           </p>
         </div>
       </section>

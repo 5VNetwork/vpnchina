@@ -29,6 +29,11 @@ export function SiteFooter() {
             <p className="mb-3 font-medium">本站</p>
             <ul className="space-y-2 text-muted">
               <li>
+                <Link href="/如何选择vpn" className="hover:text-ink">
+                  如何选择 VPN
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="hover:text-ink">
                   关于与披露
                 </Link>
