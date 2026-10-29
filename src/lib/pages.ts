@@ -39,8 +39,8 @@ export const UMIVPN_PAGE: ProductPage = {
   updatedIso: UPDATED_AT,
   intro: [
     "搜「VPN」时，海外评测里的品牌在中国大陆经常连不上、不好下载、也不好付款。UmiVPN 按中国网络环境做连接与协议优化，让国内用户能真正连上。",
-    "它是全平台免费VPN：Windows、macOS、iOS、Android 都有客户端，已上架主流应用商店。免费套餐每月 3GB；ChatGPT、Gemini、Claude 等常用 AI 站点免计量，不占用这 3GB。需要不限流量时，可升级付费套餐（约 14 元/月或 105 元/年）。",
-    "官网：[https://www.umivpn.net](https://www.umivpn.net)。本页只推荐 UmiVPN。",
+    "它是全平台免费VPN：Windows、macOS、iOS、Android 都有客户端，已上架主流应用商店。免费套餐每月 1GB；ChatGPT、Gemini、Claude、Grok、Muse 等常用 AI 站点免计量，不占用这 1GB。需要不限流量时，可升级付费套餐（约 21 元/月或 210 元/年）。",
+    "官网：[https://www.umivpn.com/zh](https://www.umivpn.com/zh)。本页只推荐 UmiVPN。",
   ],
   sections: [
     {
@@ -81,8 +81,8 @@ export const UMIVPN_PAGE: ProductPage = {
       a: "可以。UmiVPN 面向中国用户和中国网络环境优化，一键连接，适合作为国内能用的免费VPN。实际速度以你当地网络实测为准。",
     },
     {
-      q: "免费VPN每月 3GB 够不够？",
-      a: "轻度查资料、用海外 AI、偶尔看视频，通常够用。ChatGPT、Gemini、Claude 等列表内 AI 站点不计入 3GB。长时间高清视频更容易用完非 AI 流量，那时可升级不限量套餐。",
+      q: "免费VPN每月 1GB 够不够？",
+      a: "轻度查资料、用海外 AI，通常够用。ChatGPT、Gemini、Claude、Grok、Muse 等列表内 AI 站点不计入 1GB。长时间高清视频更容易用完非 AI 流量，那时可升级不限量套餐（约 21 元/月或 210 元/年）。",
     },
     {
       q: "UmiVPN 安全吗？",
@@ -92,16 +92,16 @@ export const UMIVPN_PAGE: ProductPage = {
   otherPage: {
     href: "/免费vpn",
     label: "努努加速器推荐页",
-    hint: "主要用手机、希望永久免费不限流量，请看另一页。",
+    hint: "希望永久免费、商店版不限流量，请看另一页。",
   },
 };
 
 export const NUNU_PAGE: ProductPage = {
   productId: "nunu",
   path: "/免费vpn",
-  title: "努努加速器 - 免费VPN推荐｜中国可用的手机永久免费VPN",
+  title: "努努加速器 - 免费VPN推荐｜中国可用的全平台永久免费VPN",
   description:
-    "努努加速器是面向中国用户的免费VPN：iOS / Android 永久免费、不限流量，针对中国网络加速被限制站点。已上架 App Store 与 Google Play。",
+    "努努加速器是面向中国用户的免费VPN：支持 iOS、Android、Windows、macOS。App Store / Google Play 版本不限流量，其他渠道每月 3GB；永久免费，针对中国网络加速被限制站点。",
   keywords: [
     "免费VPN",
     "免费vpn",
@@ -116,16 +116,16 @@ export const NUNU_PAGE: ProductPage = {
   updatedLabel: UPDATED_AT_LABEL,
   updatedIso: UPDATED_AT,
   intro: [
-    "搜「免费VPN」时，最怕试用到期、流量封顶或突然收费。努努加速器面向中国手机用户：承诺永不向用户收费、不按流量计费，用广告维持运营。",
-    "它针对国内网络做加速，默认不是全局代理——只走无法访问的站点，更符合多数人的手机上网习惯。支持 iOS 与 Android，已上架 App Store 与 Google Play。",
-    "官网：[https://www.nunu.monster](https://www.nunu.monster)。本页只推荐努努加速器。",
+    "搜「免费VPN」时，最怕试用到期或突然收费。努努加速器面向中国用户：承诺永不向用户收费，用广告维持运营，并支持 iOS、Android、Windows、macOS。",
+    "它针对国内网络做加速，默认不是全局代理——只走无法访问的站点，更符合多数人的上网习惯。App Store 与 Google Play 版本不限流量；Microsoft Store、安卓 APK、iOS / macOS TestFlight 版本每月 3GB。",
+    "官网：[https://www.nunuvpn.com/zh](https://www.nunuvpn.com/zh)。本页只推荐努努加速器。",
   ],
   sections: [
     {
       id: "china-network",
       heading: "为什么努努适合中国用户？",
       body: [
-        "很多海外免费VPN在中国连不上，或只能用几天。努努加速器按国内手机网络环境优化连接，一键加速被限制的网站与应用。",
+        "很多海外免费VPN在中国连不上，或只能用几天。努努加速器按国内网络环境优化连接，一键加速被限制的网站与应用。",
         "因为它不是全局 VPN，日常国内 App 不必全部绕行海外，延迟和耗电通常更友好。",
       ],
     },
@@ -133,44 +133,44 @@ export const NUNU_PAGE: ProductPage = {
       id: "who",
       heading: "谁适合用努努加速器？",
       body: [
-        "主要用手机、预算为 0、想找长期免费VPN 的用户。",
+        "预算为 0、想找长期免费VPN 的用户，电脑或手机都要用。",
         "只想打开被限制网站，不需要自己写分流规则的人。",
-        "希望从 App Store / Google Play 正规下载的人。",
+        "希望从应用商店或官网正规下载的人。",
       ],
     },
     {
       id: "download",
       heading: "怎么下载？",
       body: [
-        "在 App Store 或 Google Play 搜索「努努加速器」，或打开 [nunu.monster](https://www.nunu.monster) 按指引安装。",
-        "单次连接大约持续 30 分钟到 3 小时，可观看广告延长；轻度使用时往往更久。请走官网或应用商店。",
+        "在 App Store、Google Play 或 Microsoft Store 搜索「努努加速器」，或打开 [nunuvpn.com](https://www.nunuvpn.com/zh) 按系统选择安装（含安卓 APK、iOS / macOS TestFlight）。",
+        "App Store / Google Play 为不限流量版本；其他渠道为每月 3GB。请走官网或应用商店，避免来路不明的安装包。",
       ],
     },
   ],
   suitable: [
     "在中国大陆搜「免费VPN」、希望真正长期免费",
-    "iPhone / Android 用户，不需要电脑客户端",
-    "不限流量的日常浏览与视频",
+    "iPhone / Android / Windows / Mac 用户",
+    "商店版不限流量，或接受其他渠道每月 3GB",
     "只想加速无法访问的站点，而不是全局代理",
   ],
   faqs: [
     {
       q: "努努加速器是免费VPN吗？",
-      a: "是。永久免费、不限流量，定位就是给中国用户用的手机免费VPN / 网络加速器。",
+      a: "是。永久免费、不设付费墙，定位就是给中国用户用的免费VPN / 网络加速器。App Store 与 Google Play 版本不限流量；Microsoft Store、APK、TestFlight 等版本每月 3GB。",
     },
     {
       q: "在中国网络下能连上吗？",
-      a: "努努针对国内网络优化，一键连接被限制站点。稳不稳以你本机实测为准，请从应用商店下载官方版本。",
+      a: "努努针对国内网络优化，一键连接被限制站点。稳不稳以你本机实测为准，请从应用商店或官网下载官方版本。",
     },
     {
       q: "为什么可以永久免费？",
-      a: "通过应用内广告维持运营，不设付费墙。需要警惕来路不明、强制索权、无隐私政策的「永久免费」软件。",
+      a: "商店版本通过应用内广告维持运营，不设付费墙。需要警惕来路不明、强制索权、无隐私政策的「永久免费」软件。",
     },
   ],
   otherPage: {
     href: "/vpn",
     label: "UmiVPN 推荐页",
-    hint: "电脑也要用、或需要分流与全平台客户端，请看另一页。",
+    hint: "需要自定义分流、付费不限量或更完整的全平台 VPN 体验，请看另一页。",
   },
 };
 

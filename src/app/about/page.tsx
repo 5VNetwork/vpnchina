@@ -39,6 +39,15 @@ export default function AboutPage() {
             </Link>
             ：选购指南（商店上架、经营年限、开源、试用、诚实宣传、隐私政策）
           </li>
+          <li>
+            <Link
+              href="/免费节点"
+              className="font-medium underline-offset-4 hover:underline"
+            >
+              /免费节点
+            </Link>
+            ：免费节点与订阅分享（登录后可导入 VX）
+          </li>
         </ul>
         <p>
           本站由相关产品方运营，不会假装「中立测评几十个海外品牌」。两款产品都强调面向中国用户、针对中国网络环境优化。

@@ -29,6 +29,11 @@ export function SiteFooter() {
             <p className="mb-3 font-medium">本站</p>
             <ul className="space-y-2 text-muted">
               <li>
+                <Link href="/免费节点" className="hover:text-ink">
+                  免费节点
+                </Link>
+              </li>
+              <li>
                 <Link href="/如何选择vpn" className="hover:text-ink">
                   如何选择 VPN
                 </Link>
@@ -41,6 +46,11 @@ export function SiteFooter() {
               <li>
                 <Link href="/privacy" className="hover:text-ink">
                   隐私政策
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="hover:text-ink">
+                  服务条款
                 </Link>
               </li>
             </ul>

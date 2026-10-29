@@ -6,7 +6,7 @@
 
 | 搜索意图 | 推荐页 | 产品 |
 | --- | --- | --- |
-| VPN / 中国可用VPN | [www.vpnchina.tech/vpn](https://www.vpnchina.tech/vpn) | [UmiVPN](https://www.umivpn.net) |
+| VPN / 中国可用VPN | [www.vpnchina.tech/vpn](https://www.vpnchina.tech/vpn) | [UmiVPN](https://www.umivpn.com) |
 | 免费VPN / 手机永久免费 | [www.vpnchina.tech/免费vpn](https://www.vpnchina.tech/%E5%85%8D%E8%B4%B9vpn) | [努努加速器](https://www.nunu.monster) |
 
 Live site: [https://www.vpnchina.tech](https://www.vpnchina.tech) · Title: `VPN中国 - 中国可用的免费VPN推荐`

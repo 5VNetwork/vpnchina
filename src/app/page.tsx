@@ -31,7 +31,7 @@ const HOME_FAQS = [
   },
   {
     q: "「VPN」和「免费VPN」有什么区别？",
-    a: "日常搜索里两者经常混用。想找全平台、能当正规 VPN 用的方案，看 UmiVPN 推荐页；想找手机上真正长期免费、不限流量的方案，看努努加速器推荐页。两款产品不在同一页混排。",
+    a: "日常搜索里两者经常混用。想找全平台、能当正规 VPN 用的方案，看 UmiVPN 推荐页；想找永久免费（商店版不限流量，其他渠道每月 3GB）的方案，看努努加速器推荐页。两款产品不在同一页混排。",
   },
   {
     q: "面向中国网络优化是什么意思？",
@@ -67,7 +67,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             在中国大陆搜「VPN」或「免费VPN」，真正要问的是：能不能下载、能不能连上、是不是为中国网络做过优化。
-            本站推荐两款产品：UmiVPN（全平台）与努努加速器（手机永久免费）。
+            本站推荐两款产品：UmiVPN（全平台）与努努加速器（全平台永久免费）。
           </p>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function HomePage() {
             <p className="text-xs font-medium tracking-wide text-brand">搜 免费VPN</p>
             <h3 className="mt-2 text-xl font-semibold">努努加速器推荐页</h3>
             <p className="mt-2 text-sm leading-relaxed text-muted">
-              面向中国用户的手机永久免费VPN。不限流量，针对国内网络加速被限制站点。
+              面向中国用户的全平台永久免费VPN。商店版不限流量，其他渠道每月 3GB，针对国内网络加速被限制站点。
             </p>
           </Link>
         </div>

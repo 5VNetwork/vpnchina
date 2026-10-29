@@ -129,7 +129,7 @@ export default function HowToChoosePage() {
             <Link href="/vpn" className="font-medium underline-offset-4 hover:underline">
               UmiVPN 推荐页
             </Link>
-            ；手机永久免费看{" "}
+            ；永久免费看{" "}
             <Link
               href="/免费vpn"
               className="font-medium underline-offset-4 hover:underline"

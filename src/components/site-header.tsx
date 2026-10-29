@@ -3,8 +3,9 @@ import { SITE_NAME } from "@/lib/site";
 
 const NAV = [
   { href: "/", label: "首页" },
-  { href: "/vpn", label: "VPN" },
-  { href: "/免费vpn", label: "免费VPN" },
+  { href: "/vpn", label: "UmiVPN" },
+  { href: "/免费vpn", label: "努努加速器" },
+  { href: "/免费节点", label: "免费节点" },
   { href: "/如何选择vpn", label: "怎么选" },
   { href: "/about", label: "关于" },
 ];

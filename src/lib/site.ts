@@ -8,8 +8,8 @@ export const SITE_TITLE = "VPN中国 - 中国可用的免费VPN推荐";
 export const SITE_TAGLINE =
   "面向中国用户、针对中国网络环境优化的免费VPN推荐。UmiVPN 与努努加速器分页介绍。";
 
-export const UPDATED_AT = "2026-09-18";
-export const UPDATED_AT_LABEL = "2026年9月18日";
+export const UPDATED_AT = "2026-10-29";
+export const UPDATED_AT_LABEL = "2026年10月29日";
 
 export const PRIMARY_KEYWORDS = [
   "VPN",
@@ -18,6 +18,7 @@ export const PRIMARY_KEYWORDS = [
   "中国VPN",
   "中国可用VPN",
   "科学上网",
+  "免费节点",
   "UmiVPN",
   "努努加速器",
 ] as const;
